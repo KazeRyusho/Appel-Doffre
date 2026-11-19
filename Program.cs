@@ -69,12 +69,72 @@ namespace Noa.Deloche_For_
             //}
 
             //Exo 3 While
-            int i = 0;
-            while (i <= 100)
-            {
-                Console.WriteLine(i+"");
-                i++;
-            }
+            //int somme = 0;
+            //int i = 2;
+            //while (i <= 100)
+            //{
+            //somme += i;
+            //i += 2;
+            //}
+            //Console.WriteLine("Somme des pairs de 2 à 100 : " + somme);
+
+            //Exo 4 For
+            //Console.Write("Largeur : ");
+            //int largeur = int.Parse(Console.ReadLine());
+            //Console.Write("Hauteur : ");
+            //int hauteur = int.Parse(Console.ReadLine());
+            //for (int i = 0; i < hauteur; i++)
+            //{
+            //for (int j = 0; j < largeur; j++)
+            //{
+            //Console.Write("*");
+            //}
+            //Console.WriteLine();
+
+            //Exo 4 While
+            //Console.Write("Largeur : ");
+            //int largeur = int.Parse(Console.ReadLine());
+            //Console.Write("Hauteur : ");
+            //int hauteur = int.Parse(Console.ReadLine());
+            //int i = 0;
+            //while (i < hauteur)
+            //{
+            //int j = 0;
+            //while (j < largeur)
+            //{
+            //Console.Write("*");
+            //j++;
+            //}
+            //Console.WriteLine();
+            //i++;
+
+            //Exo 5 For A-Z
+            //for (int code = 65; code <= 90; code++)
+            //{
+            //Console.WriteLine(code + " : " + (char)code);
+            //}    
+
+            //Z-A
+            //for (int code = 90; code >= 65; code--)
+            //{
+            //Console.WriteLine(code + " : " + (char)code);
+            //}
+
+            //Exo 5 while A-Z
+            //int code = 65;
+            //while (code <= 90)
+            //{
+            //Console.WriteLine(code + " : " + (char)code);
+            //code++;
+            //}
+
+            //Z-A
+            //int code = 90;
+            //while (code >= 65)
+            //{
+            //Console.WriteLine(code + " : " + (char)code);
+            //code--;
+            //}
         }
     }
 }
